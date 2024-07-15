@@ -193,6 +193,18 @@ img {
   justify-self: center;
 }
 
+.small__img {
+  width: 64px;
+  justify-self: center;
+  border-radius: 100%;
+  outline: 4px solid #ffffff;
+  box-shadow: rgba(44, 44, 44, 0.2) 0px 2px 8px 0px;
+}
+
+.small__img img {
+  border-radius: 100%;
+}
+
 .home__title {
   font-family: var(--title-font);
   font-size: var(--h1-font-size);
