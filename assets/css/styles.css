@@ -333,6 +333,11 @@ img {
 }
 
 /*=============== ABOUT ===============*/
+.about {
+  background-color: var(--container-color);
+  outline: 8px solid #fff;
+  border-radius: 8px;
+}
 
 .about__data {
   gap: 2.5rem;
@@ -350,11 +355,7 @@ img {
 }
 
 /*=============== WORKS ===============*/
-.work {
-  background-color: var(--container-color);
-  outline: 8px solid #fff;
-  border-radius: 8px;
-}
+
 
 .section__heading {
   text-align: center;
